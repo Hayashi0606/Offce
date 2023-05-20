@@ -4,7 +4,7 @@ slide_layout = prs.slide_layouts[1]
 slide = prs.slides.add_slide(slide_layout)
 title = slide.shapes.title
 subtitle = slide.placeholders[1]
-title.text = "Hello, OpenAI!"
+title.text = "Hello, Ark"
 subtitle.text = "Python-pptx is awesome!"
 prs.save('test2.pptx')
 
